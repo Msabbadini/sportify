@@ -1,0 +1,113 @@
+/* Début Section class Text */
+.text_5xl {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.text_xl {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.text_lg {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.text_md {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.text_sm {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.text_xs {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/* Fin Section class Text */
+
+/* Début Section class Text Align */
+.text_left {
+  text-align: left;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.text_right {
+  text-align: right;
+}
+
+/* Fin Section class Text Align */
+
+/* Début Section class Text Color */
+.text_red {
+  color: $red400;
+  fill: $red400;
+}
+
+.text_grey {
+  color: $grey500;
+}
+
+.text_white {
+  color: $white;
+}
+
+.text_black {
+  color: $black;
+}
+
+.svg_red svg {
+  rect {
+    fill: $white;
+  }
+
+  path {
+    fill: $red400;
+  }
+}
+
+.svg_grey svg {
+  rect {
+    fill: $white;
+  }
+
+  path {
+    fill: $grey500;
+  }
+}
+
+.svg_white svg {
+  rect {
+    fill: $white;
+  }
+
+  path {
+    fill: $white;
+  }
+}
+
+.svg_black svg {
+  rect {
+    fill: $black;
+  }
+
+  path {
+    fill: $white;
+  }
+}
+
+/* Fin Section class Text Color */

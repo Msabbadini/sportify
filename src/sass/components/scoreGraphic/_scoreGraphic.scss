@@ -1,0 +1,25 @@
+.score{
+  position: relative;
+  width: 263px;
+  height: 263px;
+  background: #FBFBFB;
+  border-radius: 5px;
+
+  &_title{
+    position: absolute;
+    top: 24px;
+    left: 30px;
+  }
+
+  &_center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #FBFBFB;
+    border-radius: 50%;
+    height: 50%;
+    padding: 2.3rem 2.7rem;
+
+  }
+}

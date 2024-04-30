@@ -1,0 +1,31 @@
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  height: 11vh;
+  width: 100vw;
+  padding:  12px 28px;
+  background-color: $black;
+  z-index: 1;
+  &_logo {
+    width: 20%;
+    margin-right: 149px;
+  }
+  &_navigation{
+    width: 80%;
+    &--links{
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+  }
+
+}
+
+.isActive {
+  text-decoration: underline;
+  font-weight: 600;
+}

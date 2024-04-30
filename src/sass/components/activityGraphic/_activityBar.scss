@@ -1,0 +1,62 @@
+.activity {
+  width: 835px;
+  height: 320px;
+  border-radius: 5px;
+  background: #FBFBFB;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &_header {
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+
+    &--legends {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      .info{
+      display: flex;
+        gap: 12px;
+      }
+
+      .icon--red {
+        height: 8px;
+        width: 8px;
+        background-color: $red600;
+        border-radius: 50%;
+        align-self: center;
+        margin-left: 30px;
+      }
+
+      .icon--black {
+        height: 8px;
+        width: 8px;
+        background-color: $black;
+        border-radius: 50%;
+        align-self: center;
+        margin-left: 30px;
+      }
+    }
+
+  }
+
+  &_content {
+    height: 80%;
+    padding: 23px;
+  }
+}
+
+.custom-tooltip{
+  background-color:#E60000;
+  width:55px;
+  height:75px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+}
